@@ -45,6 +45,20 @@
         22
       ],
       "note": ""
+    },
+    {
+      "warning_type": "Unmaintained Dependency",
+      "warning_code": 121,
+      "fingerprint": "d84924377155b41e094acae7404ec2e521629d86f97b0ff628e3d1b263f8101c",
+      "check_name": "EOLRails",
+      "message": "Support for Rails 8.0.2.1 ended on 2026-10-07",
+      "file": "Gemfile.lock",
+      "line": 541,
+      "link": "https://brakemanscanner.org/docs/warning_types/unmaintained_dependency/",
+      "code": null,
+      "user_input": null,
+      "confidence": "High",
+      "note": "Research evaluation fork pinned to upstream's Gemfile.lock; Rails EOL (2026-10-07) is inherited from upstream, not introduced by this branch. Tracked for removal when upstream bumps Rails."
     }
   ],
   "brakeman_version": "8.0.2"
